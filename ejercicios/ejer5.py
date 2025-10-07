@@ -5,7 +5,7 @@ import streamlit as st
 def run():
     st.header("🌫️ Capítulo 5: Detección de Características SIFT")
     
-    input_image = cv2.imread('data\mar.png')
+    input_image = cv2.imread('data/mar.png')
     
     if input_image is None:
         st.error("❌ No se pudo cargar la imagen. Verifica que exista 'data\mar.png'")
