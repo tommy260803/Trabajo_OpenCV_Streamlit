@@ -63,7 +63,7 @@ def add_vertical_seam(img, seam, num_iter):
     return img_extended
 
 def run():
-    st.header("🔍 Capítulo 6: Seam Carving")
+    st.header("🔍 Capítulo 6: Seam Carving- Demora en Cargar ~2 min, por ser web")
     
     img_input = cv2.imread('data/perro.png')
     num_seams = 100
