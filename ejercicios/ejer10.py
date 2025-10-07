@@ -100,4 +100,4 @@ def run():
         for i, idx in enumerate([0, len(output_frames)//2, len(output_frames)-1]):
             if idx < len(output_frames):
                 with cols[i]:
-                    st.image(output_frames[idx], caption=f"Frame {idx+1}", use_container_width=True)
+                    st.image(output_frames[idx], caption=f"Frame {idx+1}", use_container_width=600)

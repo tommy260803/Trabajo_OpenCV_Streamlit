@@ -83,6 +83,7 @@ def run():
     img_input_rgb = cv2.cvtColor(img_input, cv2.COLOR_BGR2RGB)
     img_overlay_seam_rgb = cv2.cvtColor(img_overlay_seam, cv2.COLOR_BGR2RGB)
     img_output_rgb = cv2.cvtColor(img_output, cv2.COLOR_BGR2RGB)
+
     
     col1, col2, col3 = st.columns(3)
     with col1:
